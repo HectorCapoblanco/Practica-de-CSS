@@ -1,0 +1,48 @@
+header {background-color:red}
+
+body{font-family: 'Stoke', serif;}
+
+main{
+    background-color: rgb(75, 3, 3);
+    box-sizing: border-box;
+}
+
+.titulo2{
+    text-align: center;
+    margin-top:20px;
+    padding-top:20px;
+    font-size: 25px;
+}
+
+.fotocaja{
+    align-content: center;
+}
+.foto{
+    width:90%;
+    height: 90%;
+    margin:0 5%;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.texto2{
+    margin: 5px;
+    border:solid 3px black;
+    padding: 5px;
+    background-color: rgb(236, 118, 118);
+    font-size: 0.5em;
+}
+
+@media (max-width:480px) {
+    main{
+        background-color: rgb(243, 174, 174);
+    }
+    
+}
+
+@media (min-width:481) and (max-width:768){
+    main{
+        background-color: rgb(231, 28, 28);
+    }
+}
+
